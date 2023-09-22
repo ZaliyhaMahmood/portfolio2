@@ -1,3 +1,4 @@
+import Skills from "@/components/Skills";
 import React from "react";
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
         </p>
       </section>
 
-      <section id="skills">skills</section>
+      <Skills />
     </main>
   );
 };
