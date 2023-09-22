@@ -14,9 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-black-100 font-poppins">
+      <body className="min-h-screen bg-black-100 font-inter">
         <Navbar />
-        <main>{children}</main>
+        {children}
         <Footer />
       </body>
     </html>

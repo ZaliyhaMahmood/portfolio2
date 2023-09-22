@@ -27,7 +27,7 @@ const Navbar = () => {
 
         <ul className="flex-center gap-x-3 max-md:hidden md:gap-x-10">
           <li className="body-text">
-            <Link href="/">Skills</Link>
+            <Link href="#skills">Skills</Link>
           </li>
           <li className="body-text">
             <Link href="/">Projects</Link>
