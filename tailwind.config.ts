@@ -30,7 +30,7 @@ const config: Config = {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
-        primary: "#2190FF",
+        primary: "#140C20",
         black: {
           DEFAULT: "#000",
           100: "#0D1117",
