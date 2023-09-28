@@ -60,7 +60,7 @@ const Skills = () => {
     >
       <div className="absolute z-[0] w-[20%] h-[25%] top-[50%] left=[50%] pink__gradient" />
       <div className="paddings ">
-        <h2 className="text-sm mb-5 uppercase text-grey-100">Technologies —</h2>
+        <p className="text-sm mb-5 uppercase text-grey-100">Technologies —</p>
         <p className=" heading3  text-white">
           Tech stacks I have worked with 🛠
         </p>
