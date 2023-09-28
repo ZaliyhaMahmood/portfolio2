@@ -56,21 +56,23 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="body-text relative flex-center text-white w-full p-20  border-t border-grey-200"
+      className="body-text relative  text-white w-full p-20  "
     >
-      <div className="absolute z-[0] w-[20%] h-[25%] top-[50%] left=[50%] pink__gradient" />
-      <div className="paddings ">
-        <p className="text-sm mb-5 uppercase text-grey-100">Technologies —</p>
-        <p className=" heading3  text-white">
-          Tech stacks I have worked with 🛠
-        </p>
-        <div className="grid grid-cols-5 gap-4 mt-12">
-          {skills?.map(({ icon, name }) => (
-            <div className="bg-secondary p-5 rounded-xl flex flex-col gap-y-4 items-center justify-center w-48">
-              {icon}
-              {name}
-            </div>
-          ))}
+      <div className="flex-center">
+        <div className="absolute z-[0] w-[30%] h-[35%] top-[50%] left=[50%] pink__gradient" />
+        <div className="">
+          <p className="text-sm mb-5 uppercase text-grey-100">Technologies —</p>
+          <p className=" heading3  text-white">
+            Tech stacks I have worked with 🛠
+          </p>
+          <div className="grid grid-cols-5 gap-5 mt-12 p-10">
+            {skills?.map(({ icon, name }) => (
+              <div className="purple_gradient p-5 rounded-xl flex flex-col gap-y-4 items-center justify-center w-48">
+                {icon}
+                {name}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

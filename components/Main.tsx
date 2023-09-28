@@ -4,7 +4,7 @@ import React from "react";
 
 const Main = () => {
   return (
-    <section className="nav-padding w-full text-white px-20 my-9">
+    <section className="nav-padding w-full text-white px-20 my-9 ">
       <div className="flex">
         <div>
           <p className="text-body w-7/12 text-white-800 ">Hi there 👋🏽 , I'm</p>
@@ -26,7 +26,7 @@ const Main = () => {
           <div className="mt-20 border-b border-grey-100 w-[20%]" />
         </div>
 
-        <div className="absolute z-[0] w-[40%] h-[15%] right-0 " />
+        <div className="absolute z-[0] w-[40%] h-[15%] right-0  pink__gradient" />
       </div>
     </section>
   );
