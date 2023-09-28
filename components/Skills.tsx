@@ -65,7 +65,7 @@ const Skills = () => {
           <p className=" heading3  text-white">
             Tech stacks I have worked with 🛠
           </p>
-          <div className="grid grid-cols-5 gap-5 mt-12 p-10">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-5 mt-8 md:mt-12 p-4 md:p-10 xs:px-8 ">
             {skills?.map(({ icon, name }) => (
               <div className="purple_gradient p-5 rounded-xl flex flex-col gap-y-4 items-center justify-center w-48">
                 {icon}

@@ -41,7 +41,7 @@ const Projects = () => {
     >
       <div>
         <p className="text-sm mb-5 uppercase text-grey-100">
-          Featured projects -
+          Featured projects —
         </p>
         <h2 className="heading3  mb-5 ">What I've Worked on 📁</h2>
         {/* <p className="text-body text-white-800">
